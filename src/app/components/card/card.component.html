@@ -1,0 +1,16 @@
+<div class="card">
+    <img src={{personaje?.image}} alt="">
+    <p class="name">{{personaje?.name}}</p>
+    <p class="info">Gender: {{personaje?.gender}}</p>
+    <p class="info">Species: {{personaje?.species}}</p>
+    <span [ngClass]="{
+        'unknown': personaje?.status === 'unknown',
+        'alive': personaje?.status === 'Alive',
+        'dead': personaje?.status === 'Dead'
+    }">{{personaje?.status}}</span>
+
+    <div class="rick" 
+        *ngIf="personaje?.name?.includes('Rick')">
+        <img src="../../../assets/rick.png" alt="rick">
+    </div>
+</div>

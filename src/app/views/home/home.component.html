@@ -1,0 +1,8 @@
+<section class="homeSection">
+    <h1 class="title">Rick and Morty</h1>
+    <p class="subtitle">A continuación verás un listado de personajes</p>
+    <div class="containerCard">
+        <app-card *ngFor="let item of charactersList; let i=index"
+         [personaje] = item>></app-card>
+    </div>
+</section>

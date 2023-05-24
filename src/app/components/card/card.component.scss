@@ -1,0 +1,65 @@
+.card {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(49, 48, 48);
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    img{
+        width: 140px;
+        margin-bottom: 20px;
+    }
+    .name {
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+    span {
+        padding-inline: 20px;
+        padding-top: 2px;
+        border-radius: 5px;
+        padding-bottom: 3px;
+        text-align: center;
+        display: block;
+        margin-top: 18px;
+        font-weight: bold;
+        color: white;
+        letter-spacing: 1px;
+    }
+    .rick {
+        border: 2px solid rgb(85, 217, 202);
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+        background-color: #fff;
+        position: absolute;
+        left: -20px;
+        top: -20px;
+        box-shadow: 2px 3px 2px grey;
+        img {
+            width: 50px;
+            height: 50px;
+        }
+    }
+}
+
+.unknown {
+    background-color: grey;
+    text-transform: capitalize;
+}
+.alive{
+    background-color: green;
+}
+.dead {
+    background-color: red;
+}
