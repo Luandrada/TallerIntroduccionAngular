@@ -5,12 +5,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 To compile this project it is necessary to have Angular CLI and Node js installed, both in v14.
 To install Angular CLI version 14 you need the following command
 
-npm install -g @angular/cli@14.0.0
+`npm install -g @angular/cli@14.0.0`
 
 
 If you previously had another version installed, it is necessary to delete it and then do the installation
 
-npm uninstall -g @angular/cli
+`npm uninstall -g @angular/cli`
 
 
 To use version 12 of Node we can use the nvm library that helps us manage the versions of Node on our computer.
@@ -18,11 +18,9 @@ To install nvm we have to go to https://github.com/coreybutler/nvm-windows/relea
 
 Once downloaded, you install it and to confirm that it was installed when you run this command it should return a version:
 
-nvm version
-
-nvm install 14   
-
-nvm use 14 
+`nvm version`
+`nvm install 14`
+`nvm use 14`
 
 After those steps, you can now run npm i and ng serve -o and your project will open in http://localhost:4200/
 
