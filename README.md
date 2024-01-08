@@ -19,7 +19,9 @@ To install nvm we have to go to https://github.com/coreybutler/nvm-windows/relea
 Once downloaded, you install it and to confirm that it was installed when you run this command it should return a version:
 
 `nvm version`
+
 `nvm install 14`
+
 `nvm use 14`
 
 After those steps, you can now run npm i and ng serve -o and your project will open in http://localhost:4200/
