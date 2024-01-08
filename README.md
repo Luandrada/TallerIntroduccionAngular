@@ -24,7 +24,7 @@ Once downloaded, you install it and to confirm that it was installed when you ru
 
 `nvm use 14`
 
-After those steps, you can now run npm i and ng serve -o and your project will open in http://localhost:4200/
+After those steps, you can now run `npm i` and `ng serve -o` and your project will open in http://localhost:4200/
 
 
 ## Development server
